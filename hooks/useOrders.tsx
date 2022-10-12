@@ -12,7 +12,7 @@ const useOrders = () => {
 
 		const orders: Order[] = data.getOrders.map(({ value }: OrderResponse) => ({
 			carrier: value.carrier,
-			createAt: value.createdAt,
+			createdAt: value.createdAt,
 			shippingCost: value.shippingCost,
 			trackingId: value.trackingId,
 			trackingItems: value.trackingItems,

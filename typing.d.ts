@@ -36,7 +36,7 @@ type Order = {
   Lat: float,
   Lng: float,
   carrier: string,
-  createAt: Date,
+  createdAt: Date,
   shippingCost: int,
   trackingId: string,
   trackingItems: TrackingItems
