@@ -31,13 +31,13 @@ type CustomerResponse = {
 }
 
 type Order = {
-  Address: String,
-  City: String,
-  Lat: Float,
-  Lng: Float,
-  carrier: String,
-  createdAt: Date,
-  shippingCost: Int,
-  trackingId: String,
+  Address: string,
+  City: string,
+  Lat: float,
+  Lng: float,
+  carrier: string,
+  createAt: Date,
+  shippingCost: int,
+  trackingId: string,
   trackingItems: TrackingItems
 }
